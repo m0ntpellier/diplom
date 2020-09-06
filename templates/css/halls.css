@@ -1,0 +1,282 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+.bg_halls{
+    position: relative;
+    margin: auto;
+    height: 650px;
+    width: 1000px;
+    background: rgba(255, 255, 255, 0.719);
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+.bg_hallsSecond{
+    position: relative;
+    margin: auto;
+    height: 770px;
+    width: 1100px;
+    background: rgba(255, 255, 255, 0.719);
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.screen{
+    width: 400px;
+    color: rgb(196, 0, 0);
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-left: rgb(0, 0, 0) 1px solid;
+    border-right: rgb(0, 0, 0) 1px solid;
+    border-bottom: rgb(0, 0, 0) 1px solid;
+    border-radius: 8px;
+}
+.content_halls{
+    margin-bottom: 100px;
+}
+.rowLine{
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+.rowLineSecond{
+    display: inline-block;
+    text-align: center;
+    width: 37px;
+    height: 37px;
+}
+.rowCenter{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.number{
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+.numberSecond{
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.simple{
+    background: rgba(145, 255, 178, 0.658);
+    border-radius: 6px;
+}
+.vip{
+    background: rgba(53, 134, 255, 0.658);
+    border-radius: 6px;
+}
+.love{
+    background: rgba(255, 52, 52, 0.658);
+    border-radius: 6px;
+}
+.docs{
+    text-align: center;
+    margin: 0 auto;
+}
+.docs div{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin: 0 auto;
+}
+.docs span{
+    line-height: 70px;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.letter{
+    color: rgb(0, 68, 255);
+    margin-right: 10px;
+    font-size: 20px;
+}
+.hall{
+    color: rgb(0, 68, 255);;
+    font-size: 30px;
+    position: absolute;
+    border-bottom: rgb(0, 68, 255) 1px solid;
+    top: 40px;
+    left: 60px;
+}
+@media  (max-width:576px){
+    h1{
+        font-size: 30px;
+    }
+    .hideRasp {
+        color: #fff;
+        text-align: center;
+        font-size: 30px;   
+    }
+    .content_halls a{
+    text-decoration: none;
+    color:rgb(36, 94, 255)
+    }
+    .hide{
+        display: none;
+    }
+}
+@media (min-width: 576px) and (max-width:768px) {
+    .hideRasp{
+        display: none;
+    }
+    .bg_halls{
+        height: 550px;
+    }
+    .bg_hallsSecond{
+        margin: auto;
+        height: 670px;
+        width: 1150px;
+        background: rgba(255, 255, 255, 0.719);
+        border-radius: 50px;
+        margin-bottom: 20px;
+    }
+    .rowLine{
+        width: 29px;
+        height: 29px;
+    }
+    .number{
+        line-height: 29px;
+    } 
+    .rowLineSecond{
+        display: inline-block;
+        text-align: center;
+        width: 16px;
+        height: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    .numberSecond{
+        margin: 0;
+        padding: 0;
+        line-height: 17px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 11px;
+    }
+    .docs{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .docs div{
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .docs span{
+        line-height: 50px;
+        font-size: 15px;
+        padding-right: 10px;
+        padding-left: 5px;
+    }
+    .letter{
+        color: rgb(0, 68, 255);
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .hall{
+        color: rgb(0, 68, 255);;
+        font-size: 20px;
+        position: absolute;
+        border-bottom: rgb(0, 68, 255) 1px solid;
+        top: 80px;
+        left: 15px;
+    }
+  }
+@media (min-width: 768px) and (max-width:991px) {
+    .hideRasp{
+        display: none;
+    }
+    .bg_halls{
+        height: 670px;
+    }
+    .rowLine{
+        width: 41px;
+        height: 41px;
+    }
+    .number{
+        line-height: 41px;
+    }  
+    .docs span{
+        font-size: 19px;
+    } 
+    .bg_hallsSecond{
+        height: 780px;
+        width: 1150px;
+    }
+    .rowLineSecond{
+        width: 23px;
+        height: 23px;
+    }
+    .numberSecond{
+        line-height: 23px;
+        font-size: 13px;
+    }
+    .hall{
+        font-size: 22px;
+        top: 40px;
+        left: 20px;
+    }
+  }
+@media (min-width: 992px) and (max-width:1199px) {
+    .hideRasp{
+        display: none;
+    }
+  
+    .bg_hallsSecond{
+        height: 860px;
+        width: 1150px;
+    }
+    .rowLineSecond{
+        display: inline-block;
+        text-align: left;
+        width: 32.5px;
+        height: 32.5px;
+    }
+    .numberSecond{
+        margin: 0;
+        padding: 0;
+        line-height: 32.5px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .hideRasp{
+        display: none;
+    }
+    .navigation li a{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-right: 15px;
+        margin-left: 15px;
+    } 
+    .navigation ul li:not(:last-child){
+        border-right: 1px solid rgba(51, 51, 51, 0.205); 
+    }
+    .contacts span{
+        font-size: 12.5px;
+    }
+    #phone{
+        padding-left: 20px !important;
+    }
+  }

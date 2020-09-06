@@ -1,0 +1,84 @@
+html{
+    position: relative;
+    min-height: 100%
+}
+/* .maps{
+    position: relative;
+    margin-bottom: 80px;
+
+} */
+#map{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    max-width: 600px;
+    height: 600px;
+    background-color: rgb(151, 151, 151);
+    margin: auto; 
+    margin-bottom: 150px;
+}
+#whereMapText{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.textMap{
+    color: #fff;
+    font-size: 23px;
+    /* margin-left: 650px; */
+
+}
+.phones hr{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.397); height: 1px; border: 0;
+}
+.phones{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.phones p{
+    padding: 0;
+    margin: 0;
+}
+.phones a{
+    text-decoration: none;
+    padding: 0;
+}
+.pLess{
+    font-size: 15px;
+}
+.maps{
+    margin-bottom: 10px;
+}
+@media  (max-width:576px){
+    .maps{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    #map{
+        margin: 0 30px;
+    }
+}
+@media (min-width: 576px) and (max-width:768px) {
+    .textMap{
+        text-align: center;
+    }
+}
+   
+@media (min-width: 768px) and (max-width:991px) {
+    #map{
+        text-align: center;
+    }
+}
+   
+@media (min-width: 992px) and (max-width:1199px) {
+
+}
+   
+@media (min-width: 1200px) {
+
+}
